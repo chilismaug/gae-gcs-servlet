@@ -19,7 +19,7 @@ public class HelloAppEngine extends HttpServlet {
 	  public void doGet(HttpServletRequest request, HttpServletResponse response)
 	      throws ServletException, IOException {
 		PrintWriter out;
-		String title = "PhraseOmatic MARK V";
+		String title = "PhraseOmatic";
 		response.setContentType("text/html");
 	    response.setCharacterEncoding("UTF-8");
 		out = response.getWriter();
@@ -28,7 +28,7 @@ public class HelloAppEngine extends HttpServlet {
 		
 		out.println("<html>");
 		out.println("<head><title>");
-		out.println("PhraseOmatic");
+		out.println("PhraseOmatic Mark V");
 		out.println("</title>"+cssTag+"</head>");
 		out.println("<body><div align=\"center\">" );
 		out.println("<h1>" + title + "</h1><br>");
