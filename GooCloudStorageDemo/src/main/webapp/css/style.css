@@ -1,0 +1,32 @@
+body {
+  color: #333;
+}
+p, a  {
+  color: currentColor;
+}
+a {
+  border-bottom: 0.01px solid;
+  color: 90bbvv;
+}
+
+body {
+  min-height: 50vh;
+}
+body {
+  font-family: "Roboto", sans-serif; 
+  background-color: currentColor; 
+}
+h1 {
+  font-size: calc(0.8em + 3vw);
+}
+h1 {
+  text-align: center;
+  color: #778877;
+}
+h2 {
+  color: #bbbbcc;
+}
+h3, h4 {
+  color: #bbccdd;
+}
+ 
