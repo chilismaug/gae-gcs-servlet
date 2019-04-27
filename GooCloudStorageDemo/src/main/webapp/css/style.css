@@ -17,7 +17,7 @@ body {
   background-color: currentColor; 
 }
 h1 {
-  font-size: calc(0.8em + 3vw);
+  font-size: calc(0.5em + 3vw);
 }
 h1 {
   text-align: center;
